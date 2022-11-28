@@ -1,5 +1,5 @@
 {
-  "name": "layer0-ionic-react-example",
+  "name": "edgio-ionic-react-example",
   "dependencies": {
     "@capacitor/app": "1.0.6",
     "@capacitor/core": "3.3.2",
@@ -43,7 +43,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "layer0:deploy": "layer0 deploy",
+    "edgio:deploy": "edgio deploy",
     "format": "prettier --write '**/*' --ignore-unknown"
   },
   "prettier": {
@@ -71,10 +71,10 @@
   },
   "devDependencies": {
     "@capacitor/cli": "3.3.2",
-    "@layer0/cli": "^4.13.9",
-    "@layer0/core": "^4.13.9",
-    "@layer0/devtools": "^4.13.9",
-    "@layer0/prefetch": "^4.13.9",
+    "@edgio/cli": "^5.0.4",
+    "@edgio/core": "^5.0.4",
+    "@edgio/devtools": "^5.0.4",
+    "@edgio/prefetch": "^5.0.4",
     "prettier": "^2.5.1"
   }
 }
